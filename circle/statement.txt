@@ -1,0 +1,64 @@
+# https://www.pythonmorsels.com/exercises/ac9f7d60d95d493f9e354f18a3ea9d82/submit/1/
+
+Problem Statement
+This exercise includes 3 bonuses and 7 hints (hover over the hint links before clicking on them).
+
+We recommend Mixed-level users solve up to the first bonus for this exercise.
+
+I want you to make a class that represents a circle.
+
+The circle should have a radius, a diameter, and an area. It should also have a nice string representation.
+
+For example:
+
+>>> c = Circle(5)
+>>> c
+Circle(5)
+>>> c.radius
+5
+>>> c.diameter
+10
+>>> c.area
+78.53981633974483
+Additionally the radius should default to 1 if no radius is specified when you create your circle:
+
+>>> c = Circle()
+>>> c.radius
+1
+>>> c.diameter
+2
+There are three bonuses for this exercise.
+
+Bonus 1
+For the first bonus, make sure when the radius of your class changes that the diameter and area both change as well:
+
+>>> c = Circle(2)
+>>> c.radius = 1
+>>> c.diameter
+2
+>>> c.area
+3.141592653589793
+>>> c
+Circle(1)
+If you get stuck on this bonus, make sure to check the hints.
+
+Bonus 2
+Note: We don't recommend this bonus for Mixed-level users, unless you need an extra challenge.
+
+ Click to reveal this bonus
+
+Bonus 3
+Note: We don't recommend this bonus for Mixed-level users, unless you need an extra challenge.
+
+ Click to reveal this bonus
+
+Hints
+Here are some hints you can use when you get stuck (hover over links to see what they're about):
+
+What is a class?
+Computing the area of a circle
+Customizing the string representation of your class
+Where to find math utilities
+Bonus 1: Making an auto-updating attribute
+Bonus 2: Customizing what happens when you set an attribute
+Bonus 3: Raising exceptions
